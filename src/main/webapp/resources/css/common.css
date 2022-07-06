@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/*
+	resources/css/common.css
+*/
+
+*{
+	padding:0;
+	margin:0;	
+}
+
+body{
+	width:900px;
+	margin:auto;
+}
+
+header{
+	height:100px;
+	border-bottom:1px solid #ccc;
+}
+
+ul{
+	list-style:none;
+	float:right;
+	height:50px;
+	line-height:50px;
+}
+
+ul li{
+	display:inline-block;
+	padding-left:20px;
+}
+
+ul li a{
+	text-decoration:none;
+	color:#000;
+}
+
+ul li a:hover{
+	color:#ccc;
+}
+
+div{
+	overflow:hidden;
+}
+
+table{
+	border-collapse:collapse;
+	border:1px solid black;
+}
+
+table tr td,
+table tr th{
+	padding:10px;
+	border:1px solid #ccc;
+	text-align:center;
+}
+
+section{
+	min-height:500px;
+	display:flex;
+	align-items:center;
+	justify-content: center;
+}
+
+footer{
+	height:100px;
+	text-align:center;
+	line-height:100px;
+	border-top:1px solid #ccc;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
